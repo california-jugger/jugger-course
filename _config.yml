@@ -34,8 +34,6 @@ nav_links:
     Course Notes:
       - 'https://placeholder.com'
       
-logo: "/assets/misc/ursae.png"
-favicon_ico: "/assets/images/favicon.ico"
 exclude:
   - ".#*"
   - "*~"
