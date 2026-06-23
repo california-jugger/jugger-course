@@ -1,0 +1,26 @@
+<section class="module">
+  <h3 class="module-header">{{ page.title }}</h3>
+  <div class="module-body">
+    {{ content }}
+  </div>
+  <div class="module-deck">
+      <div class="module">
+	  <div class="module-header">
+              Lecture
+	  </div>
+	  <div class="module-body">
+              <span class="module-date">1/18</span>
+	      {{ page.lecture | markdownify }}
+	  </div>
+      </div>
+      <div class="module">
+	  <div class="module-header">
+              Fieldwork
+	  </div>
+	  <div class="module-body">
+              <span class="module-date">1/18</span>
+	      {{ page.fieldwork | markdownify }}
+	  </div>
+      </div>
+  </div>
+</section>
