@@ -1,0 +1,35 @@
+name: Build and Deploy Jekyll via SSH
+description: 💾 A Github Action to build and then deploy your Jekyll site via SSH  
+  
+on:
+  workflow_dispatch: # Allows workflow to be run manually
+  push:
+    branches:
+      - main  # Or your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.4.0'  # Adjust as needed for your project
+
+    - name: 🏗️ Build Jekyll site 
+      run: |
+        bundle install
+        bundle exec jekyll build
+
+    - name: 🚀 Deploy via SSH
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        source: "./_site/*" # Adjust if required
+        target: "/home/j/ju/jugger/decal-fa26" # Set to your deployment directory (for example /public_html)
+        strip_components: 1 # This ensures that a subdirectory is not created
