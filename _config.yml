@@ -17,8 +17,8 @@ title: Intro to Jugger
 description: Course site for Introduction to Jugger
 author: Reid Dye
 email: contact@jugger.studentorg.berkeley.edu
-baseurl: '/jugger-course/' # the subpath of your site, e.g. /blog
-url: 'https://californiajugger.org' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/decal-fa26/' # the subpath of your site, e.g. /blog
+url: 'https://jugger.studentorg.berkeley.edu' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs@v0.2.5-release
