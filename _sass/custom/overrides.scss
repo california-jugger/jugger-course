@@ -21,10 +21,23 @@ div.side-bar {
   }
 }
 
+img.site-logo {
+  display: none;
+
+  @include mq(md) {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
 h1.site-title {
-  @extend .fs-6;
+  font-size: 16px !important;
   margin: 0;
   flex: 0 0 auto;
+
+  @include mq(sm) {
+    font-size: 22px !important;
+  }
 
   @include mq(md) {
     position: relative;
