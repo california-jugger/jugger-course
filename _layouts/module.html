@@ -13,13 +13,24 @@
   {% if page.assignments %}
       <h4 class="module-header">Assignments</h4>
       <div class="module-body"><ul>
-	  {% for assignment in page.assignments %}
+	  {% for slug in page.assignments %}
+	      {% assign assignment = site.assignments | where: "slug", slug | first %}
+	      {% if assignment %}
 	      <li>
-		  <span class="module-date">
-		      {{ assignment.due }}
+		  {% if assignment.published %}
+		  <a href="{{ assignment.url | relative_url }}">{{ assignment.title }}</a>
+		  {% else %}
+		  <span class="assignment-module-unpublished">{{ assignment.title }}</span>
+		  {% endif %}
+		  {% if assignment.due %}
+		  <span class="module-date{% unless assignment.published %} module-date-unpublished{% endunless %}">
+		      due {{ assignment.due | date: "%b %-d" }}
 		  </span>
-		  {{ assignment.desc | markdownify | remove: '<p>' | remove: '</p>' }}
+		  {% endif %}
 	      </li>
+	      {% else %}
+	      <li>{{ slug }}</li>
+	      {% endif %}
 	  {% endfor %}
       </ul></div>
   {% endif %}

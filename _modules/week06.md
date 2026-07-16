@@ -11,8 +11,6 @@ fieldwork: |
  * Reffing drill
  * Games with guided discussion & review
 assignments:
-  - due: 10/12
-    desc: '[Quiz 6](link eventually)'
-  - due: 10/16
-    desc: 'Footage analysis discussion post'
+  - quiz-6
+  - footage-analysis-1
 ---

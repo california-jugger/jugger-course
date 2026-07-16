@@ -8,6 +8,5 @@ lecture: |
 fieldwork: |
  * Tournament
 assignments:
-  - due: 10/19
-    desc: '[Strategy Reflection 1](link eventually)'
+  - strategy-reflection-1
 ---

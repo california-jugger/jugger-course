@@ -11,8 +11,6 @@ fieldwork: |
  * Instructor sparring rotation with discussion
  * 2v1 drills
 assignments:
-  - due: 10/5
-    desc: '[Quiz 5](link eventually)'
-  - due: 10/9
-    desc: '[Azalea''s Doc](https://docs.google.com/document/d/1DVNYR-dAdxMHOwTDM9ObXgLK_dViIrNIEG6kWRmRRIU/edit?usp=sharing) + discussion post'
+  - quiz-5
+  - azalea-doc
 ---

@@ -10,9 +10,7 @@ fieldwork: |
  * 2/4 sparring workshops
  * first games
 assignments:
-  - due: 9/11
-    desc: '[Quiz 1](link here eventually)'
+  - quiz-1
 ---
 
 please fill out this [waiver](link)!
-

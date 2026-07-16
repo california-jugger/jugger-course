@@ -9,18 +9,29 @@
 .module-body {
   @extend .card-body;
 
+  // Don't @extend .label — its blue-100 background wins the cascade over
+  // $module-date-color when selectors are merged. Mirror the label look here.
   .module-date {
-    @extend .label, .fw-700;
-    // background-color: $purple-100;
-    background-color: $module-date-color;
-  }
-
-  span.module-date {
-    border-radius: $border-radius;
+    display: inline-block;
+    padding: 0.16em 0.42em;
     margin-left: 0;
-    padding-bottom: 0.08em;
+    margin-right: 0.25rem;
+    border-radius: $border-radius;
+    color: $white;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    vertical-align: middle;
     white-space: nowrap;
     background-color: $module-date-color;
+
+    @include mq(sm) {
+      font-size: 12px;
+    }
+
+    &.module-date-unpublished {
+      background-color: $grey-dk-000;
+    }
   }
 }
 

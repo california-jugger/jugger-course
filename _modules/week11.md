@@ -10,6 +10,5 @@ lecture: |
 fieldwork: |
  * Student-picked drills from [Peter's Pawns Training Manual](https://www.peterspawns.de/wp-content/uploads/Jugger-Training-Manual.pdf)
 assignments:
-  - due: 11/20
-    desc: 'Footage analysis discussion post'
+  - footage-analysis-2
 ---

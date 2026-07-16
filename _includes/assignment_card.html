@@ -1,0 +1,23 @@
+<article class="assignment assignment-card{% unless include.assignment.published %} assignment-unpublished{% endunless %}" id="{{ include.assignment.slug }}">
+  {% if include.assignment.published %}
+  <a class="assignment-card-stretch" href="{{ include.assignment.url | relative_url }}" aria-label="{{ include.assignment.title }}"></a>
+  {% endif %}
+  <div class="assignment-row">
+    <h2 class="assignment-title">
+      {% if include.assignment.published %}
+      <span class="assignment-title-text">{{ include.assignment.title }}</span>
+      {% else %}
+      <span class="assignment-title-text">{{ include.assignment.title }}</span>
+      <span class="assignment-status">unpublished</span>
+      {% endif %}
+    </h2>
+    <div class="assignment-meta">
+      {% if include.assignment.assigned %}
+      <div>assigned: {{ include.assignment.assigned | date: "%b %-d" }}</div>
+      {% endif %}
+      {% if include.assignment.due %}
+      <div>due: {{ include.assignment.due | date: "%b %-d" }}</div>
+      {% endif %}
+    </div>
+  </div>
+</article>

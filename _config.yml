@@ -25,6 +25,10 @@ remote_theme: pmarsceill/just-the-docs@v0.2.5-release
 color_scheme: light
 search_enabled: true
 permalink: pretty
+# Keep assignments with published: false in site.assignments so they appear in
+# lists as non-clickable. Their HTML pages are removed after build (see justfile
+# / deploy workflow) so the content is not publicly reachable.
+unpublished: true
 nav_links:
   Other:
     Syllabus:
@@ -41,9 +45,15 @@ exclude:
 
 # Collections for website data
 collections:
-  - modules
-  - announcements
-  - staffers
+  modules:
+    output: false
+  announcements:
+    output: false
+  staffers:
+    output: false
+  assignments:
+    output: true
+    permalink: /:collection/:name/
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -61,3 +71,10 @@ defaults:
       type: staffers
     values:
       layout: staffer
+  - scope:
+      path: ''
+      type: assignments
+    values:
+      layout: assignment
+      nav_exclude: true
+      published: true

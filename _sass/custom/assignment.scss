@@ -1,0 +1,117 @@
+// List cards on the Assignments page
+.assignment-card {
+  @extend .card;
+  position: relative;
+  margin-bottom: $sp-3;
+}
+
+// Full-card hit target (avoids nesting block elements inside <a>, which
+// kramdown mangles when includes are processed as markdown).
+.assignment-card-stretch {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.assignment-card:has(.assignment-card-stretch) {
+  cursor: pointer;
+  transition: box-shadow 0.15s ease;
+
+  &:hover,
+  &:focus-within {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 6px 18px rgba(0, 0, 0, 0.08);
+
+    .assignment-title-text {
+      color: $link-color;
+    }
+  }
+
+  &:focus-within {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+.assignment-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: $sp-4;
+  padding: $sp-3 $sp-4;
+  flex-wrap: wrap;
+}
+
+.assignment-card .assignment-title {
+  @extend .card-header;
+  padding: 0;
+  // Beat .card's tight-headers h2 top margin so meta can truly center
+  margin: 0 !important;
+  flex: 1 1 auto;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.assignment-title-text {
+  color: inherit;
+}
+
+.assignment-status {
+  margin-left: $sp-2;
+  font-size: 0.75em;
+  font-weight: 500;
+  color: $grey-dk-000;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+.assignment-meta {
+  flex: 0 0 auto;
+  text-align: right;
+  color: $grey-dk-100;
+  font-size: 0.9em;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.assignment-unpublished {
+  opacity: 0.85;
+
+  .assignment-title-text {
+    color: $grey-dk-100;
+  }
+
+  .assignment-meta {
+    color: $grey-dk-000;
+  }
+}
+
+// Module list: unpublished assignment titles
+.assignment-module-unpublished {
+  color: $grey-dk-100;
+}
+
+// Individual assignment page
+.assignment-page-title {
+  margin-bottom: $sp-2;
+}
+
+.assignment-page-meta {
+  color: $grey-dk-100;
+  margin-top: 0;
+  margin-bottom: $sp-4;
+}
+
+.assignment-page-meta-sep {
+  margin: 0 $sp-2;
+}
+
+.assignment-page-body {
+  margin-bottom: $sp-6;
+}
+
+.assignment-page-back {
+  margin-top: $sp-6;
+  padding-top: $sp-4;
+  border-top: $border $border-color;
+}

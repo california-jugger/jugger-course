@@ -15,8 +15,6 @@ fieldwork: |
  * Double pin drills
  * Pinning game
 assignments:
-  - due: 9/28
-    desc: '[Quiz 4](link eventually)'
-  - due: 10/2
-    desc: '[Quincy''s Flowchart](https://docs.google.com/document/d/1qLc2vWZhFpzM4eeMOhKrN7j98ArbuB3iRPe7k0FbX20/edit?usp=sharing) + discussion post'
+  - quiz-4
+  - quincy-flowchart
 ---
