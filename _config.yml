@@ -25,9 +25,8 @@ remote_theme: pmarsceill/just-the-docs@v0.2.5-release
 color_scheme: light
 search_enabled: true
 permalink: pretty
-# Keep assignments with published: false in site.assignments so they appear in
-# lists as non-clickable. Their HTML pages are removed after build (see justfile
-# / deploy workflow) so the content is not publicly reachable.
+# need so i can use `published` as an attribute for assignments
+# jekyll has a native implementation that we want to get around
 unpublished: true
 nav_links:
   Other:
@@ -42,6 +41,11 @@ exclude:
   - ".#*"
   - "*~"
   - "#*#"
+  - README.md
+  - justfile
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 # Collections for website data
 collections:
@@ -77,4 +81,3 @@ defaults:
     values:
       layout: assignment
       nav_exclude: true
-      published: true
