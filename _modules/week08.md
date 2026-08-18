@@ -1,6 +1,6 @@
 ---
 title: Week 8 - Advanced Pompf Techniques
-date: 10/26
+date: 10/30
 weekid: Week8
 lecture: |
  * Guest instructors & introductions

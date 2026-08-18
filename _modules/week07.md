@@ -1,6 +1,6 @@
 ---
 title: Week 7 - Mid-Course Tournament
-date: 10/19
+date: 10/23
 weekid: Week7
 lecture: |
  * Organize into teams, develop strategy, & play the game

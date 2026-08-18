@@ -1,6 +1,6 @@
 ---
 title: Week 1 - Game Introduction & Sparring I
-date: 9/7
+date: 9/11
 weekid: Week1
 lecture: |
  * Introductions

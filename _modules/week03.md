@@ -1,6 +1,6 @@
 ---
 title: Week 3 - Chain & Chainbreak
-date: 9/21
+date: 9/25
 weekid: Week3
 lecture: |
  * Chain history & construction

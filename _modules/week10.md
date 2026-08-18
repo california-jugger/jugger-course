@@ -1,6 +1,6 @@
 ---
 title: Week 10 - Equipment Construction
-date: 11/9
+date: 11/13
 weekid: Week10
 lecture: |
  * Introduction to mechanical design

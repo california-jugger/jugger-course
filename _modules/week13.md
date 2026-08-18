@@ -1,6 +1,6 @@
 ---
 title: Week 13 - Final Tournament
-date: 11/30
+date: 12/4
 weekid: Week13
 lecture: |
  * Split into teams

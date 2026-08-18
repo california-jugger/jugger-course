@@ -1,6 +1,6 @@
 ---
 title: Week 11 - CA Jugger History
-date: 11/16
+date: 11/20
 weekid: Week11
 lecture: |
  * Guest speaker: Jordan Xiao

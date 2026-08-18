@@ -1,6 +1,6 @@
 ---
 title: Week 9 - Strategy & Analysis
-date: 11/2
+date: 11/6
 weekid: Week9
 lecture: |
  * Sparring footage analysis

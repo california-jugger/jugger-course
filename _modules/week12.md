@@ -1,6 +1,6 @@
 ---
 title: Week 12 - Thanksgiving Break
-date: 11/23
+date: 11/27
 weekid: Week12
 lecture: |
  * No class
