@@ -3,10 +3,10 @@ layout: home
 title: Home
 nav_order: 0
 description: >-
-    Course website for ERG98 Introduction to Jugger
+    Course website for ENERES 98 Introduction to Jugger
 ---
 <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background.png" data-speed="0.1">/div> -->
-# ERG98 | Introduction to Jugger
+# ENERES 98 | Introduction to Jugger
 {: .mb-2 }
 Fall 2026
 {: .mb-0 .fs-6 .text-grey-dk-200 }
