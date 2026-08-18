@@ -1,13 +1,19 @@
 # Intro to Jugger — Course Website
 
-Live site:
-[jugger.studentorg.berkeley.edu/decal-fa26/](https://jugger.studentorg.berkeley.edu/decal-fa26/)
+live at https://jugger.studentorg.berkeley.edu/decal-fa26/
 
-Source for the Berkeley DeCal **Introduction to Jugger** (ERG 98, Fall 2026).
-The content is meant to be reusable — fork it if you’re teaching a similar class.
+This is a Jekyll site which will have all course materials for the
+Introduction to Jugger DeCal (student-run course) currently being
+taught by Jugger at Berkeley.
 
-This README assumes you’re comfortable with git, Markdown, and static sites in
-general, but may never have touched **Ruby** or **Jekyll**.
+It is here on the CAJA GitHub as a resource for teams everywhere to
+use. Feel free to fork to create your own course! 
+
+
+
+The rest of this README is to help you adapt this site for your own
+purposes. It assumes you’re comfortable with git, Markdown, and static
+sites in general, but may never have touched **Ruby** or **Jekyll**.
 
 ---
 
@@ -154,7 +160,6 @@ at least look into changing:
 - `baseurl`: the subpath the site should be served on. we have `/decal-fa26/`; it's whatever comes after `url`.
 
 After any change here restart `jekyll serve`
-
 
 ## Deploy
 
