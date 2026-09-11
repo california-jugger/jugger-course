@@ -1,7 +1,12 @@
-set default-list := true
+# Prefer rbenv Ruby so recipes work even when the parent shell lacks shims.
+export PATH := env_var("HOME") + "/.rbenv/shims:" + env_var("HOME") + "/.rbenv/bin:" + env_var("PATH")
+
+list:
+    just --list
 
 setup:
-    gem install jekyll bundler
+    gem install bundler
+    bundle install
 
 serve:
     bundle install

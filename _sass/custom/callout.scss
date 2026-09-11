@@ -1,0 +1,16 @@
+.important {
+  background-color: rgba($blue-000, 0.08);
+  border-left: $sp-2 solid $blue-000;
+  border-radius: $border-radius;
+  box-shadow: none;
+  margin: $sp-4 0;
+  padding: $sp-3 $sp-4;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
