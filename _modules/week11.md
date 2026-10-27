@@ -1,14 +1,15 @@
 ---
-title: Week 11 - CA Jugger History
-date: 11/20
+title: Week 11 - Equipment Construction
+date: 2027-04-16
 weekid: Week11
 lecture: |
- * Guest speaker: Jordan Xiao
- * CA Jugger timeline
- * Berkeley history
- * Team proliferation
+ * Introduction to mechanical design
+ * Construction materials
+ * Safety/performance design paradigm
 fieldwork: |
- * Student-picked drills from [Peter's Pawns Training Manual](https://www.peterspawns.de/wp-content/uploads/Jugger-Training-Manual.pdf)
+ * Supervised pompfen construction
+ * Games with newly-created pompf
 assignments:
-  - footage-analysis-2
+  - quiz-9
+  - peters-pawns
 ---

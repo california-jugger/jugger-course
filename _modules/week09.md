@@ -1,15 +1,13 @@
 ---
-title: Week 9 - Strategy & Analysis
-date: 11/6
+title: Week 9 - Advanced Pompf Techniques
+date: 2027-04-02
 weekid: Week9
 lecture: |
- * Sparring footage analysis
- * High level strategy II
- * Game footage analysis
+ * Guest instructors & introductions
 fieldwork: |
- * 2v2 drills
- * Games with sideline calling focus
+ * Workshops with guest instructors
+ * Games with instructor feedback
 assignments:
-  - quiz-8
-  - steven-doc
+  - quiz-7
+  - han-doc
 ---

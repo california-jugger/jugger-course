@@ -8,7 +8,7 @@ description: >-
 <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background.png" data-speed="0.1">/div> -->
 # ENERES 98 | Introduction to Jugger
 {: .mb-2 }
-Fall 2026
+Spring 2027
 {: .mb-0 .fs-6 .text-grey-dk-200 }
 
 <hr>

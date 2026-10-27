@@ -1,6 +1,6 @@
 ---
 title: Week 5 - Advanced Sparring & 2v1s
-date: 10/9
+date: 2027-03-05
 weekid: Week5
 lecture: |
  * 2v1 theory

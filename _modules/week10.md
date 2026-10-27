@@ -1,15 +1,15 @@
 ---
-title: Week 10 - Equipment Construction
-date: 11/13
+title: Week 10 - Strategy & Analysis
+date: 2027-04-09
 weekid: Week10
 lecture: |
- * Introduction to mechanical design
- * Construction materials
- * Safety/performance design paradigm
+ * Sparring footage analysis
+ * High level strategy II
+ * Game footage analysis
 fieldwork: |
- * Supervised pompfen construction
- * Games with newly-created pompf
+ * 2v2 drills
+ * Games with sideline calling focus
 assignments:
-  - quiz-9
-  - peters-pawns
+  - quiz-8
+  - steven-doc
 ---

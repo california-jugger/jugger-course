@@ -1,6 +1,6 @@
 ---
 title: Week 13 - Final Tournament
-date: 12/4
+date: 2027-04-30
 weekid: Week13
 lecture: |
  * Split into teams

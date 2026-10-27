@@ -1,13 +1,11 @@
 ---
-title: Week 8 - Advanced Pompf Techniques
-date: 10/30
+title: Week 8 - Spring Break
+date: 2027-03-26
 weekid: Week8
 lecture: |
- * Guest instructors & introductions
+ * No class
 fieldwork: |
- * Workshops with guest instructors
- * Games with instructor feedback
-assignments:
-  - quiz-7
-  - han-doc
+ * No class
 ---
+
+Spring break — no class this week.

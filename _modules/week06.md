@@ -1,6 +1,6 @@
 ---
 title: Week 6 - High Level Strategy
-date: 10/16
+date: 2027-03-12
 weekid: Week6
 lecture: |
  * Field positions

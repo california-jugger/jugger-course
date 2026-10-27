@@ -1,6 +1,6 @@
 ---
 title: Week 2 - Sparring II & Qwiking
-date: 9/18
+date: 2027-02-12
 weekid: Week2
 lecture: |
  * How to qwik

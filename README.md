@@ -1,6 +1,6 @@
 # Intro to Jugger — Course Website
 
-live at https://jugger.studentorg.berkeley.edu/decal-fa26/
+live at https://jugger.studentorg.berkeley.edu/decal-sp27/
 
 This is a Jekyll site which will have all course materials for the
 Introduction to Jugger DeCal (student-run course) currently being
@@ -49,7 +49,7 @@ bundle exec jekyll serve
 ```
 
 Open the URL Jekyll prints. Note the path includes `baseurl`
-(`/decal-fa26/` from `_config.yml`). You can (should) change this to
+(`/decal-sp27/` from `_config.yml`). You can (should) change this to
 whatever you want your site to be.
 
 build writes the site to `_site/` but doesnt serve it:
@@ -117,7 +117,7 @@ week all condensed into one module.
 ### Assignments (`_assignments/`)
 
 One file per assignment. Slug = filename without extension
-(`quiz-1.md` -> slug `quiz-1` -> URL `/decal-fa26/assignments/quiz-1/` when published).
+(`quiz-1.md` -> slug `quiz-1` -> URL `/decal-sp27/assignments/quiz-1/` when published).
 
 to make an assigment show up on a module, add its slug under that module’s
 `assignments:` list (see above).
@@ -157,7 +157,7 @@ at least look into changing:
 
 - `title`, `description`, `author`, `email`: branding/authorship info
 - `url`: host base url. we have it set to `https://jugger.studentorg.berkeley.edu`. if you host with github pages, for example, you'd set it to `https://yourname.github.io`
-- `baseurl`: the subpath the site should be served on. we have `/decal-fa26/`; it's whatever comes after `url`.
+- `baseurl`: the subpath the site should be served on. we have `/decal-sp27/`; it's whatever comes after `url`.
 
 After any change here restart `jekyll serve`
 

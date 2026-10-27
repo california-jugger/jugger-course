@@ -1,8 +1,8 @@
 ---
 published: false
 title: Footage Analysis Discussion Post
-assigned: 2026-10-16
-due: 2026-10-23
+assigned: 2027-03-12
+due: 2027-03-19
 ---
 
 Complete the footage analysis discussion post.

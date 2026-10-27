@@ -1,11 +1,14 @@
 ---
-title: Week 12 - Thanksgiving Break
-date: 11/27
+title: Week 12 - CA Jugger History
+date: 2027-04-23
 weekid: Week12
 lecture: |
- * No class
+ * Guest speaker: Jordan Xiao
+ * CA Jugger timeline
+ * Berkeley history
+ * Team proliferation
 fieldwork: |
- * No class
+ * Student-picked drills from [Peter's Pawns Training Manual](https://www.peterspawns.de/wp-content/uploads/Jugger-Training-Manual.pdf)
+assignments:
+  - footage-analysis-2
 ---
-
-Thanksgiving break — no class this week. Enjoy the holiday!

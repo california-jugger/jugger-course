@@ -1,6 +1,6 @@
 ---
 title: Week 4 - Pin Control
-date: 10/2
+date: 2027-02-26
 weekid: Week4
 lecture: |
  * Pinning mechanics review & regional variations
