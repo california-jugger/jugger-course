@@ -17,7 +17,7 @@ jobs:
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.4.0'  # Adjust as needed for your project
+        ruby-version: '3.4'
 
     - name: 🏗️ Build Jekyll site 
       run: |
