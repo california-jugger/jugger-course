@@ -1,5 +1,5 @@
 ---
-title: Welcome to ENERES 98 - Intro. to Jugger!
+title: Welcome to MECENG 98 - Intro. to Jugger!
 ---
 
 We're extremely excited to have you! We've put a lot of effort into

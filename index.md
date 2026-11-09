@@ -3,10 +3,10 @@ layout: home
 title: Home
 nav_order: 0
 description: >-
-    Course website for ENERES 98 Introduction to Jugger
+    Course website for MECENG 98 Introduction to Jugger
 ---
 <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background.png" data-speed="0.1">/div> -->
-# ENERES 98 | Introduction to Jugger
+# MECENG 98 | Introduction to Jugger
 {: .mb-2 }
 Spring 2027
 {: .mb-0 .fs-6 .text-grey-dk-200 }
